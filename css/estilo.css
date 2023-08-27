@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+body a{
+    transition: 0.4s;
+    text-decoration: none;
+    color: white
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 90px;
+
+    background: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 5%;
+    text-align: left;
+    margin-left: 20%;
+}
+.logo h1{
+    color: white;
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+}
+.menu{
+    flex: 15%;
+    margin-top: 15px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+;
+}
+.menu a{
+    color: gray;
+    padding: 20px;
+    font-size: 15px;
+}
+.menu a:hover{
+    color: rgb(137, 205, 137);
+    transition: 0.4s;
+}
+.rede_social{
+    margin-top: 12px;
+    flex: 5%;
+    margin-right: 20%;
+    text-align: right;
+
+}
+.rede_social i{
+    color: gray;
+    padding:15px;
+    font-size: 17px;
+    transition: 0.4s;
+}
+.rede_social i:hover{
+    color: white;
+    transition: 0.4s;
+}
+.section{
+    display:flex;
+    text-align: center;
+    padding: 5%;
+    flex-flow: row wrap;
+}
+.section-img{
+    color: white;
+    display: inline-block;
+    width: 0%;
+    padding: 65px;
+    margin-right: 10%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    flex: 20%;
+    padding-top: 10px;
+}
+.section-img h2{
+    color: white;
+    display: inline-block;
+    width: 20%;
+    padding:0%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    font-size:40px;
+    background-size: 100%;
+    background-position: center;
+}
+
+.section-img a{
+    display:inline-block;
+    border: 2px solid white;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left:100px;
+    font-size: 25px;
+}
+.section-img img{
+    margin-top: 10px;
+    filter: grayscale(100%);
+    transition: 0.6s;
+    max-width: 150%;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: auto;
+}
+.section-img img:hover{
+    filter: grayscale(0%);
+}
+.section-img a:hover{
+    color: black;
+    background: white;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-bottom: 3%;
+}
+#especial{
+    padding-bottom: 18%;
+    max-width: 176%;
+}
+#Especial{
+    padding-bottom: 18%;
+    max-width: 176%;
+}
+#link{
+    margin-left:140px
+}
+#link2{
+    margin-left:140px
+}
